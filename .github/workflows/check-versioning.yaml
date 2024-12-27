@@ -13,16 +13,16 @@ jobs:
     steps:
 
     - name: ↩️ Checkout
-      uses: actions/checkout@v2
+      uses: actions/checkout@v4
 
     - name: 📂 Detect chanced addons
-      uses: dorny/paths-filter@v2
+      uses: dorny/paths-filter@v3
       id: filter
       with:
         filters: .github/paths-filter.yml
 
     - name: 📂 Detect chanced files
-      uses: dorny/paths-filter@v2
+      uses: dorny/paths-filter@v3
       id: changed-files
       with:
         list-files: csv
@@ -61,7 +61,7 @@ jobs:
     steps:
 
       - name: ↩️ Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
 
       - name: ℹ️ Gather addon info
         id: information
@@ -91,7 +91,7 @@ jobs:
     steps:
 
       - name: ↩️ Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
 
       - name: 🔎 Check if a label for the addon exists
         shell: bash

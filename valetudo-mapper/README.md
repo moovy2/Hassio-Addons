@@ -1,3 +1,14 @@
+# 🚨 Addons are moved 🚚
+
+__I moved my addons to a own organisation for easier maintaining and maybe allowing contributers to maintain one addon as well. Please switch to the new repository to get future updates.__
+
+The new home of my addons is: https://github.com/Poeschl-HomeAssistant-Addons/repository
+
+A migration guide is available here: [migrate_from_Poeschl_repository.md](https://github.com/Poeschl-HomeAssistant-Addons/repository/blob/main/docs/migrate_from_Poeschl_repository.md)
+
+
+---
+
 # Valetudo RE Mapper (Home Assistant Supervisor Addon)
 
 This is the adaption of [valetudo-mapper](https://github.com/rand256/valetudo-mapper) as a Supervisor addon.

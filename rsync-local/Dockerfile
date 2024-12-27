@@ -3,8 +3,8 @@ FROM $BUILD_FROM AS RUNNING
 
 RUN apk update && \
     apk add --no-cache \
-		'rsync=3.2.4-r2' \
-		'coreutils=9.1-r0'
+		'rsync=3.2.7-r4' \
+		'coreutils=9.3-r1'
 
 COPY root /
 RUN chmod a+x /run.sh

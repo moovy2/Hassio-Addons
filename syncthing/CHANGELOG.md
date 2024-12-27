@@ -1,3 +1,46 @@
+## 1.19.0 - 2024-03-24
+
+* 🔨 Mount all available directories into add-on container and improve documentation. Home Assistant's config folder is now available under `/homeassistant` and the configuration of all Home Assistant add-ons under `/addon_configs` (fixes #460, @salim-b | #467).
+* 🔨 Hide authentication warnings inside addon. For further discussion see #340 (thanks @salim-b | #457)
+* 🔼 Updated syncthing to `1.27.4-r2` (thanks @salim-b | #462)
+
+## 1.18.2 - 2024-01-13
+
+* 🐛 Fix migration issue (again)
+
+## 1.18.1 - 2024-01-13
+
+* 🐛 Fix migration issue
+
+## 1.18.0 - 2024-01-13
+
+* 🔨 Configure Syncthing via environment variables instead of CLI arguments where possible and properly separate config and database/state directories (thanks @salim-b | #450)
+* 🔨 Set `/share` as default folder path fallback (fixes #447, @salim-b).
+* 🔼 Updated syncthing to `1.27.2-r0`
+
+## 1.17.0 - 2023-10-13
+
+* 🔨 Set gui-address to first IP in container (thanks @reedy | #426)
+* 🔨 DOCS.md: Add information about HA Syncthing Integration (thanks @reedy & @salim-b | #420)
+* 🔨 DOCS.md: Improve Configuration section (thanks @reedy | #419)
+* 🔼 Updated syncthing to `1.25.0-r1` (thanks @salim-b | #412)
+
+## 1.16.3 - 2023-07-20
+
+* 🔼 Updated syncthing to `1.23.6-r1`  (thanks @salim-b | #394)
+
+## 1.16.2 - 2023-04-11
+
+* 🔼 Updated syncthing to `1.23.4-r0`
+* 🔨 Use HTTP**S** for repository URL
+
+ (thanks @salim-b | #375)
+
+## 1.16.1 - 2023-01-08
+
+* 🔼 Updated syncthing to `1.23.0-r0`
+* 🔨 Make syncthing recognize the cli parameter
+
 ## 1.16.0 - 2022-11-05
 
 * 🔼 Updated syncthing to `1.22.1-r0`

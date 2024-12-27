@@ -1,3 +1,13 @@
+# 🚨 Addons are moved 🚚
+
+__I moved my addons to a own organisation for easier maintaining and maybe allowing contributers to maintain one addon as well. Please switch to the new repository to get future updates.__
+
+The new home of my addons is: https://github.com/Poeschl-HomeAssistant-Addons/repository
+
+A migration guide is available here: [migrate_from_Poeschl_repository.md](https://github.com/Poeschl-HomeAssistant-Addons/repository/docs/migrate_from_Poeschl_repository.md)
+
+---
+
 # Docker Container Stats (Home Assistant Addon)
 
 # 🕸️ Depreciated

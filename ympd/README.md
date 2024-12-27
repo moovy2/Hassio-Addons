@@ -1,3 +1,13 @@
+# 🚨 Addons are moved 🚚
+
+__I moved my addons to a own organisation for easier maintaining and maybe allowing contributers to maintain one addon as well. Please switch to the new repository to get future updates.__
+
+The new home of my addons is: https://github.com/Poeschl-HomeAssistant-Addons/repository
+
+A migration guide is available here: [migrate_from_Poeschl_repository.md](https://github.com/Poeschl-HomeAssistant-Addons/repository/docs/migrate_from_Poeschl_repository.md)
+
+---
+
 # ympd
 
 [ympd](https://ympd.org/) is a lightweight MPD (Music Player Daemon) web client that runs without a dedicated webserver or interpreters like PHP, NodeJS or Ruby. It's tuned for minimal resource usage and requires only very litte dependencies.
